@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  --accent-color: #069fe6;
+  --light-gray: rgba(0, 0, 0, 0.1);
+}
+
+body{
+  background: gainsboro;
+}
+
+.cart_content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 20rem;
+}
+
+.cart_product{
+  background: #fff;
+}
